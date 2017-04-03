@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "name": "DJI Phantom 3 Advanced",
+    "price": 3500.00,
+    "image": "product-1.jpg",
+    "about": "Com precisão de voo, transmissão ao vivo de imagens e câmeras com definições incríveis, a série Phantom 3  da DJI oferece três modelos de equipamento para uso profissional e amador."
+  },
+  {
+    "id": 2,
+    "name": "DJI Phantom 3 Professional",
+    "price": 4500.00,
+    "image": "product-2.jpg",
+    "about": "Com precisão de voo, transmissão ao vivo de imagens e câmeras com definições incríveis, a série Phantom 3  da DJI oferece três modelos de equipamento para uso profissional e amador."
+  },
+  {
+    "id": 3,
+    "name": "DJI Phantom 4 Pro",
+    "price": 6900.00,
+    "image": "product-3.jpg",
+    "about": "O Phantom 4 Pro conta com um sistema de desvio de obstáculos que reconhece interferências em suas laterais, com 5 sensores e com bateria para até 30 minutos de voo por carga. A câmera, 4k com 60 fps e 20MP para fotos conta com novas lentes profissionais e mais capacidade e controle para a captação de detalhes."
+  },
+  {
+    "id": 4,
+    "name": "DJI Mavic Pro",
+    "price": 8900.00,
+    "image": "product-4.jpg",
+    "about": "O Mavic Pro é um drone concebido para te acompanhar sempre. Compacto e potente, traz um sistema de transmissão que permite alcance de até 7 km e bateria para voos de até 27 minutos. A estabilidade, de voo e imagens, seguem o padrão de tecnologia DJI, com posicionamento perfeito e imagens em 4k."
+  },
+  {
+    "id": 5,
+    "name": "DJI Inspire 1 RAW (Dois Controles)",
+    "price": 25000.00,
+    "image": "product-5.jpg",
+    "about": "Qualidade de cinema em todas as filmagens. O Inspire 2 grava em até 5.2k 30 fps ou 4k 60 fps. Seu trem de pouso sobe durante o voo para permitir que a câmera principal gire em 360° sem interferências. Para ser controlado por 2 operadores, conta com duas câmeras estabilizadas, uma para gravar e outra para orientar o voo."
+  }
+]
