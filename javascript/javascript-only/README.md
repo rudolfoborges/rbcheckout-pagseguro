@@ -1,4 +1,4 @@
-### Checkout Transparente - PagSeguro - Javascript Only
+# Checkout Transparente - PagSeguro - Javascript Only
 
 ## Rodar Local
 * Instalar o Node
