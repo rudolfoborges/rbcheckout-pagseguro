@@ -4,18 +4,18 @@ body{
 }
 
 .container{
-  margin-top: 100px;
+  margin-top: 130px;
 }
 
 .navbar-rbcheckout{
   background: #e74c3c;
-  height: 80px;
+  height: 100px;
   color: #eee;
   border-bottom: solid #eee 5px;
 }
 
 .navbar-rbcheckout .title{
-  margin-top: 15px;
+  margin-top: 25px;
   font-size: 2em;
   color: #eee;
 }
@@ -43,7 +43,7 @@ body{
   width: 100px;
   height: auto;
   padding: 5px;
-  color: #eee; 
+  color: #eee;
   border-bottom-right-radius: 5px;
   bottom: -10px;
   right: 0px;
@@ -68,4 +68,5 @@ body{
     bottom: 10px;
     text-align: center;
     padding-top: 10px;
+    margin-bottom: 20px;
 }
