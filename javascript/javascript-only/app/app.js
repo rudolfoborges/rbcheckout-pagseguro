@@ -1,20 +1,18 @@
 class App{
 
-  constructor(){
-    this.$scope = {};
-  }
+  static bootstrap(callback){
+    let $scope = {};
+    $scope.product = {};
 
-  bootstrap(callback){
-    this.$scope.product = {};
     $.getJSON('data/products.json', (products)=>{
-      this.$scope.product.controller = new ProductController(products);
+      $scope.product.controller = new ProductController(products);
     });
 
-    if(callback) callback(this.$scope);
+    if(callback) callback($scope);
   }
 }
 
 var app;
-new App().bootstrap(($scope)=>{
+App.bootstrap(($scope)=>{
   app = $scope;
 });
