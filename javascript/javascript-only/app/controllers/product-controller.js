@@ -5,11 +5,18 @@ class ProductController{
   }
 
   fill(el){
-    $.each(this.products, (index, product) => {
-      let div = el.append('div');
-      div.css('col-sm-6');
-      div.html(product.name);
-    });
+    el.html('');
+
+    var productView = $.get('app/views/products.html', (view)=>{
+      $.each(this.products, (index, product) => {
+        var productView = view.replace('{{image}}', product.image)
+                              .replace('{{name}}', product.name)
+                              .replace('{{price}}', product.price)
+                              .replace('{{about}}', product.about);
+        $(productView).appendTo(el);
+      });
+    })
+
   }
 
 }

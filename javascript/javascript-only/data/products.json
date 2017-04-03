@@ -26,5 +26,12 @@
     "price": 8900.00,
     "image": "product-4.jpg",
     "about": "O Mavic Pro é um drone concebido para te acompanhar sempre. Compacto e potente, traz um sistema de transmissão que permite alcance de até 7 km e bateria para voos de até 27 minutos. A estabilidade, de voo e imagens, seguem o padrão de tecnologia DJI, com posicionamento perfeito e imagens em 4k."
+  },
+  {
+    "id": 5,
+    "name": "DJI Inspire 1 RAW (Dois Controles)",
+    "price": 25000.00,
+    "image": "product-5.jpg",
+    "about": "Qualidade de cinema em todas as filmagens. O Inspire 2 grava em até 5.2k 30 fps ou 4k 60 fps. Seu trem de pouso sobe durante o voo para permitir que a câmera principal gire em 360° sem interferências. Para ser controlado por 2 operadores, conta com duas câmeras estabilizadas, uma para gravar e outra para orientar o voo."
   }
 ]

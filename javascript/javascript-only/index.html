@@ -5,30 +5,31 @@
     <title>RBCheckout PagSeguro</title>
     <link rel="stylesheet" href="assets/bower/normalize-css/normalize.css">
     <link rel="stylesheet" href="assets/bower/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/product.css">
   </head>
   <body>
 
-    <h1>Produtos</h1>
-
-    <div id="products" class="row">
-
+    <div class="container">
+        <h1>Produtos</h1>
+        <div id="products" class="row">
+          Carregando os produtos...
+        </div>
     </div>
 
     <script src="assets/bower/jquery/dist/jquery.min.js" charset="utf-8"></script>
     <script src="app/controllers/product-controller.js" charset="utf-8"></script>
-    <script src="app/main.js" charset="utf-8"></script>
+    <script src="app/app.js" charset="utf-8"></script>
 
     <script type="text/javascript">
-      (function(){
-
         $(document).ready(()=>{
-          let productController = $scope.product.controller;
-          let elProducts = $('#products');
 
-          productController.fill(elProducts);
+          //Aguarda o load dos produtos
+          setTimeout(()=>{
+            let elProducts = $('#products');
+            app.product.controller.fill(elProducts);
+          }, 1500);
+
         });
-
-      })();
     </script>
   </body>
 
