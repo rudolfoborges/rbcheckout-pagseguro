@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>RBCheckout PagSeguro</title>
+    <link rel="stylesheet" href="assets/bower/normalize-css/normalize.css">
+    <link rel="stylesheet" href="assets/bower/bootstrap/dist/css/bootstrap.min.css">
+  </head>
+  <body>
+
+    <h1>Produtos</h1>
+
+    <div id="products" class="row">
+
+    </div>
+
+    <script src="assets/bower/jquery/dist/jquery.min.js" charset="utf-8"></script>
+    <script src="app/controllers/product-controller.js" charset="utf-8"></script>
+    <script src="app/main.js" charset="utf-8"></script>
+
+    <script type="text/javascript">
+      (function(){
+
+        $(document).ready(()=>{
+          let productController = $scope.product.controller;
+          let elProducts = $('#products');
+
+          productController.fill(elProducts);
+        });
+
+      })();
+    </script>
+  </body>
+
+</html>

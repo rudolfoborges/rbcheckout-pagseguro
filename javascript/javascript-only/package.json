@@ -1,0 +1,16 @@
+{
+  "name": "javascript-only",
+  "version": "1.0.0",
+  "description": "Projeto Javascript com exemplo do Checkout Transparente do PagSeguro",
+  "main": "node-server.js",
+  "scripts": {
+    "start": "http-server -p 3000",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rudolfo Borges",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.15.2",
+    "http-server": "^0.9.0"
+  }
+}
