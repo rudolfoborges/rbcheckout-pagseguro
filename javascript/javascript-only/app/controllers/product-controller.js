@@ -7,7 +7,7 @@ class ProductController{
   fill(el){
     el.html('');
 
-    var productView = $.get('app/views/products.html', (view)=>{
+    $.get('app/views/products.html', (view)=>{
       $.each(this.products, (index, product) => {
         var productView = view.replace('{{image}}', product.image)
                               .replace('{{name}}', product.name)
