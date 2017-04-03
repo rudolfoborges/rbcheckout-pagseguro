@@ -1,27 +1,36 @@
 
+body{
+    font-family: "franklin-gothic-urw", sans-serif;
+}
+
 .container{
-  margin-top: 100px;
+  margin-top: 130px;
 }
 
 .navbar-rbcheckout{
-  background: #16a085;
-  height: 80px;
-  color: #ecf0f1;
-  border-bottom: solid #ecf0f1 5px;
+  background: #e74c3c;
+  height: 100px;
+  color: #eee;
+  border-bottom: solid #eee 5px;
 }
 
 .navbar-rbcheckout .title{
-  margin-top: 15px;
+  margin-top: 25px;
   font-size: 2em;
-  color: #ecf0f1;
+  color: #eee;
+}
+
+#products {
+  min-height: 800px;
 }
 
 .product{
   text-align: center;
+  min-height: 350px;
 }
 
 .product .info{
-  background: #ecf0f1;
+  background: #eee;
   border-radius: 5px;
   margin: 5px;
   padding: 5px;
@@ -29,22 +38,35 @@
 }
 
 .product .price{
-  background: #16a085;
+  background: #e74c3c;
   position: absolute;
   width: 100px;
   height: auto;
   padding: 5px;
-  color: #ecf0f1; 
+  color: #eee;
   border-bottom-right-radius: 5px;
   bottom: -10px;
   right: 0px;
 }
 
 .product a{
-  color: #16a085;
+  color: #e74c3c;
 }
 
 .product img{
   width: 300px;
   height: auto;
+}
+
+.page-bottom{
+    color: #7C7C7C;
+    background: #f5f5f5;
+    border-top: 4px solid #eee;
+    width: 100%;
+    margin-top: 100px;
+    height: 150px;
+    bottom: 10px;
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: 20px;
 }
