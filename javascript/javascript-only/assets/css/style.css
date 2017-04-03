@@ -1,0 +1,50 @@
+
+.container{
+  margin-top: 100px;
+}
+
+.navbar-rbcheckout{
+  background: #16a085;
+  height: 80px;
+  color: #ecf0f1;
+  border-bottom: solid #ecf0f1 5px;
+}
+
+.navbar-rbcheckout .title{
+  margin-top: 15px;
+  font-size: 2em;
+  color: #ecf0f1;
+}
+
+.product{
+  text-align: center;
+}
+
+.product .info{
+  background: #ecf0f1;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 5px;
+  position: relative;
+}
+
+.product .price{
+  background: #16a085;
+  position: absolute;
+  width: 100px;
+  height: auto;
+  padding: 5px;
+  color: #ecf0f1; 
+  border-bottom-right-radius: 5px;
+  bottom: -10px;
+  right: 0px;
+}
+
+.product a{
+  color: #16a085;
+}
+
+.product img{
+  width: 300px;
+  height: auto;
+}

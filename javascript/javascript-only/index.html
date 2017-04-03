@@ -5,14 +5,37 @@
     <title>RBCheckout PagSeguro</title>
     <link rel="stylesheet" href="assets/bower/normalize-css/normalize.css">
     <link rel="stylesheet" href="assets/bower/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/product.css">
+    <link rel="stylesheet" href="assets/bower/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
   </head>
   <body>
 
+    <nav class="navbar navbar-default navbar-fixed-top navbar-rbcheckout">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <p class="title">
+            <i class="fa fa-credit-card" aria-hidden="true"></i> RBCheckout PagSeguro / Javascript Only
+          </p>
+        </div>
+      </div>
+    </nav>
+
     <div class="container">
-        <h1>Produtos</h1>
-        <div id="products" class="row">
-          Carregando os produtos...
+        <div class="row">
+          <div id="" class="col-sm-9">
+            <div class="page-header">
+              <h3>Produtos em destaque</h3>
+            </div>
+            <div id="products">
+              <div class="col-sm-12"><i class="fa fa-spinner fa-pulse fa-fw"></i> Carregando produtos...</div>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="page-header">
+              <h3><i class="fa fa-shopping-cart" aria-hidden="true"></i> Itens selecionados</h3>
+            </div>
+            <div id="selected-products">Nenhum item selecionado</div>
+          </div>
         </div>
     </div>
 

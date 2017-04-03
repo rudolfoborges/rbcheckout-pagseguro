@@ -10,6 +10,7 @@
   "private": true,
   "dependencies": {
     "bootstrap": "^3.3.7",
-    "normalize-css": "normalize.css#^6.0.0"
+    "normalize-css": "normalize.css#^6.0.0",
+    "font-awesome": "fontawesome#^4.7.0"
   }
 }
